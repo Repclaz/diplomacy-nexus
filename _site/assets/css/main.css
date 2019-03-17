@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,400,600");
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -1191,7 +1191,7 @@ body {
 /* Basic */
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -1241,7 +1241,7 @@ footer {
 
 strong, b {
   font-weight: 300;
-  color: #666; }
+  color: #333; }
 
 em, i {
   font-style: italic; }
@@ -1329,6 +1329,9 @@ section, article {
   section ul, section ol, article ul, article ol {
     padding-left: 0.25em;
     margin-left: 1.25em; }
+  section p, article p {
+    font-size: 20px !important;
+    line-height: 30px !important; }
 
 /* Image */
 .image {
@@ -1492,7 +1495,7 @@ button,
 
 /* Item */
 .item {
-  box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.15em 0.5em 0 rgba(0, 0, 0, 0.35);
   margin-bottom: 40px; }
   .item header {
     color: #666;
@@ -1503,6 +1506,8 @@ button,
     font-size: 0.8em; }
     .item header h3 {
       font-size: 1em; }
+  .item div {
+    padding: 15px; }
 
 /* Icons */
 .icon {
@@ -2032,3 +2037,6 @@ button:hover,
 
 #rules li {
   text-align: left; }
+
+.subpage {
+  padding-left: 2.5em !important; }
